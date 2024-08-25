@@ -1,0 +1,19 @@
+.send-message {
+    @apply bg-message-primary ml-auto;
+
+    footer {
+        & p{
+           @apply text-stone-900;
+        }
+    }
+}
+
+.received-message {
+    @apply bg-message-secondary;
+    
+    footer {
+        & p{
+           @apply text-white;
+        }
+    }
+}
